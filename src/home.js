@@ -8,7 +8,7 @@ function Home() {
         <h2>Software Developer</h2>
         <div className="buttons">
           <a href="resume.pdf" download="ChuaYanYan-resume">
-            <button>Download Resume</button>{" "}
+            <button>Download Resume</button>
           </a>
         </div>
         <div className="buttons">

@@ -15,7 +15,7 @@ function ExpandableContainer(props) {
     >
       <button onClick={handleClick}>
         <h1>{props.title ?? "Click me!"}</h1>
-        <FontAwesomeIcon icon={isExpanded ? faAngleDown : faAngleUp} />
+        <FontAwesomeIcon icon={isExpanded ? faAngleUp : faAngleDown} />
       </button>
       {isExpanded && (
         <div className={props.isLastContainer ? "enableBottomBorder" : ""}>

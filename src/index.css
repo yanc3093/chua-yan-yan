@@ -78,7 +78,7 @@
 }
 
 .home .buttons button:hover {
-  background-color: lightgrey;
+  background-color: lightgray;
   cursor: pointer;
 }
 
@@ -96,14 +96,12 @@
 }
 
 .resume .leftColumn {
-  max-width: 400px;
-  width: 100%;
+  flex: 4;
 }
 
 .resume .leftColumn h1 {
   font-size: 50px;
   margin: 0;
-  margin-right: auto;
 }
 
 .resume .leftColumn button {
@@ -113,19 +111,18 @@
 }
 
 .resume .leftColumn button:hover {
-  background-color: lightgrey;
+  background-color: lightgray;
   cursor: pointer;
 }
 
 .resume .rightColumn {
-  max-width: 600px;
-  width: 100%;
+  flex: 6;
 }
 
 .resume .rightColumn button {
   align-items: center;
   background-color: transparent;
-  border-top: 1px solid lightgrey;
+  border-top: 1px solid lightgray;
   border-right: none;
   border-bottom: none;
   border-left: none;
@@ -147,5 +144,26 @@
 }
 
 .resume .rightColumn .enableBottomBorder {
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid lightgray;
+}
+
+.contact {
+  margin: auto;
+  margin-top: 100px;
+  max-width: 1000px;
+}
+
+.contact h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.contact .contactMethods {
+  display: flex;
+  gap: 20px;
+}
+
+.contact .contactMethods .icon {
+  height: 30px;
+  width: 30px;
 }
