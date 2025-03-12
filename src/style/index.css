@@ -92,6 +92,7 @@
   display: flex;
   margin: auto;
   margin-top: 100px;
+  margin-bottom: 100px;
   max-width: 1000px;
 }
 
@@ -133,6 +134,10 @@
   padding: 0;
 }
 
+.resume .rightColumn button:hover {
+  cursor: pointer;
+}
+
 .resume .rightColumn h1 {
   font-size: 30px;
   margin: 0;
@@ -145,6 +150,66 @@
 
 .resume .rightColumn .enableBottomBorder {
   border-bottom: 1px solid lightgray;
+}
+
+.projects {
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  max-width: 1000px;
+}
+
+.projects h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.projects .row {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.projects .row .projectContainer {
+  border: 1px solid lightgray;
+  height: 500px;
+  width: 30%;
+}
+
+.projects .row .projectContainer img {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.projects .row .projectContainer .description {
+  height: 30%;
+  margin: 10px;
+  overflow-wrap: break-word;
+}
+
+.projects .row .projectContainer .link {
+  display: flex;
+  justify-content: center;
+}
+
+.projects .row .projectContainer .link a {
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 50px;
+  display: flex;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.projects .row .projectContainer .link a:hover {
+  background-color: lightgray;
+}
+
+.projects .row .projectContainer .link .icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
 }
 
 .contact {
@@ -164,6 +229,6 @@
 }
 
 .contact .contactMethods .icon {
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
 }
