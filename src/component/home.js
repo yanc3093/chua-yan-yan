@@ -1,7 +1,9 @@
+import myPicture from "../asset/cyy.jpeg";
+
 function Home() {
   return (
     <div className="home">
-      <img src="cyy.jpeg" alt="cyy" />
+      <img src={myPicture} alt="cyy" />
       <div>
         <h3>Hello, I'm</h3>
         <h1>Chua Yan Yan</h1>
