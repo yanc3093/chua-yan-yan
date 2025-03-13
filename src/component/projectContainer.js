@@ -8,8 +8,10 @@ function ProjectContainer(props) {
       <div className="description">{props.description}</div>
       <div className="link">
         <a href={props.link} target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon className="icon" icon={faGithub} />
-          <div>Visit Project Repository</div>
+          <button>
+            <FontAwesomeIcon className="icon" icon={faGithub} />
+            Visit Project Repository
+          </button>
         </a>
       </div>
     </div>

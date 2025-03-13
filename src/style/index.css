@@ -9,37 +9,37 @@
   align-items: baseline;
   border-bottom: 1px solid lightgray;
   display: flex;
+  justify-content: space-between;
   margin: auto;
   max-width: 1000px;
   padding: 10px;
 }
 
-.navbar h1 {
+.navbar .homeLink {
   font-size: 30px;
-  margin: 0;
-  margin-right: auto;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-.navbar a {
+.navbar .otherLinks a {
   font-size: 20px;
   margin-left: 20px;
   text-decoration: none;
 }
 
-.navbar a:hover {
+.navbar .otherLinks a:hover {
   text-decoration: underline;
 }
 
 .home {
-  align-items: center;
   display: flex;
-  justify-content: center;
   margin: auto;
   margin-top: 100px;
+  margin-bottom: 100px;
   max-width: 1000px;
 }
 
-.home img {
+.home .leftColumn img {
   border-radius: 50%;
   height: 300px;
   width: 300px;
@@ -47,52 +47,46 @@
   object-fit: cover;
 }
 
-.home h1 {
-  font-size: 50px;
-  margin: 5px;
-  text-align: center;
-}
-
-.home h2 {
-  font-size: 30px;
-  font-weight: 500;
-  margin: 0;
-  text-align: center;
-}
-
-.home h3 {
-  font-weight: 500;
-  margin: 0;
-  text-align: center;
-}
-
-.home .buttons {
+.home .leftColumn a {
   display: flex;
   justify-content: center;
+  margin-right: 50px;
+  text-decoration: none;
 }
 
-.home .buttons button {
+.home .leftColumn a button {
+  align-items: center;
   border-radius: 50px;
+  display: flex;
   margin: 20px 10px;
   padding: 10px 20px;
 }
 
-.home .buttons button:hover {
+.home .leftColumn a button:hover {
   background-color: lightgray;
   cursor: pointer;
 }
 
-.home .buttons img {
-  height: 40px;
-  width: 40px;
-  margin: 0 10px;
+.home .leftColumn a button .icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+.home .rightColumn {
+  flex: 1;
+}
+
+.home .rightColumn .summary {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 50px;
 }
 
 .resume {
   display: flex;
   margin: auto;
   margin-top: 100px;
-  margin-bottom: 100px;
   max-width: 1000px;
 }
 
@@ -105,15 +99,27 @@
   margin: 0;
 }
 
-.resume .leftColumn button {
+.resume .leftColumn a {
+  text-decoration: none;
+}
+
+.resume .leftColumn a button {
+  align-items: center;
   border-radius: 50px;
+  display: flex;
   margin: 20px 10px;
   padding: 10px 20px;
 }
 
-.resume .leftColumn button:hover {
+.resume .leftColumn a button:hover {
   background-color: lightgray;
   cursor: pointer;
+}
+
+.resume .leftColumn a button .icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
 }
 
 .resume .rightColumn {
@@ -194,22 +200,26 @@
 }
 
 .projects .row .projectContainer .link a {
+  text-decoration: none;
+}
+
+.projects .row .projectContainer .link a button {
   align-items: center;
   border: 2px solid black;
   border-radius: 50px;
   display: flex;
   padding: 10px 20px;
-  text-decoration: none;
 }
 
-.projects .row .projectContainer .link a:hover {
+.projects .row .projectContainer .link a button:hover {
   background-color: lightgray;
+  cursor: pointer;
 }
 
-.projects .row .projectContainer .link .icon {
-  height: 30px;
-  width: 30px;
-  margin-right: 10px;
+.projects .row .projectContainer .link a button .icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
 }
 
 .contact {
