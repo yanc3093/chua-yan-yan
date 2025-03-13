@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
+import myResume from "../asset/resume.pdf";
 import ExpandableContainer from "./expandableContainer";
 
 function Resume() {
@@ -7,7 +8,7 @@ function Resume() {
     <div className="resume">
       <div className="leftColumn">
         <h1>My Resume</h1>
-        <a href="resume.pdf" download="ChuaYanYan-resume">
+        <a href={myResume} download="ChuaYanYan-resume">
           <button>
             <FontAwesomeIcon className="icon" icon={faFileArrowDown} />
             Download Resume

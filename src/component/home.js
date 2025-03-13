@@ -1,6 +1,6 @@
-import myPicture from "../asset/cyy.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import myPicture from "../asset/cyy.jpeg";
 
 function Home() {
   return (
