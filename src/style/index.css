@@ -183,18 +183,18 @@
 
 .projects .row .projectContainer {
   border: 1px solid lightgray;
-  height: 500px;
+  height: 600px;
   width: 30%;
 }
 
 .projects .row .projectContainer img {
-  height: 50%;
+  height: 40%;
   width: 100%;
   object-fit: cover;
 }
 
 .projects .row .projectContainer .description {
-  height: 30%;
+  height: 35%;
   margin: 10px;
   overflow-wrap: break-word;
 }
@@ -213,6 +213,7 @@
   border: 2px solid black;
   border-radius: 50px;
   display: flex;
+  margin-bottom: 10px;
   padding: 10px 20px;
 }
 

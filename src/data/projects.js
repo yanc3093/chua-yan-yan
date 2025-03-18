@@ -1,31 +1,13 @@
+import projectSopScreenshot from "../asset/projectSopScreenshot.png";
+
 const projects = [
   {
     id: 1,
-    image: "logo512.png",
+    image: projectSopScreenshot,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    link: "https://github.com/yanc3093",
-  },
-  {
-    id: 2,
-    image: "logo512.png",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    link: "https://github.com/yanc3093",
-  },
-  {
-    id: 3,
-    image: "logo512.png",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    link: "https://github.com/yanc3093",
-  },
-  {
-    id: 4,
-    image: "logo512.png",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    link: "https://github.com/yanc3093",
+      "This app was built using Flutter. It features a single screen where floor operators can follow the displayed SOPs to complete tasks. It also features a background timer to help operators and supervisors track task durations for efficient task management.",
+    repositoryLink: "https://github.com/yanc3093/sop",
+    videoLink: "https://youtu.be/n3vLmhLfr54",
   },
 ];
 

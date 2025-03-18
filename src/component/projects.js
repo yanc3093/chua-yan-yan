@@ -11,7 +11,8 @@ function Projects() {
         id={project.id}
         image={project.image}
         description={project.description}
-        link={project.link}
+        repositoryLink={project.repositoryLink}
+        videoLink={project.videoLink}
       />
     );
     if (row.length === 3 || i === projects.length - 1) {
