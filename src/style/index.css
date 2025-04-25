@@ -21,6 +21,16 @@
   text-decoration: none;
 }
 
+.navbar button {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar button .icon {
+  height: 20px;
+  width: 20px;
+}
+
 .navbar .otherLinks {
   display: flex;
   gap: 20px;
@@ -33,6 +43,19 @@
 
 .navbar .otherLinks a:hover {
   text-decoration: underline;
+}
+
+.expandedMenu {
+  align-items: center;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.expandedMenu a {
+  font-size: 20px;
+  text-decoration: none;
 }
 
 .home {
