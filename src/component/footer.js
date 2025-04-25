@@ -8,7 +8,7 @@ import {
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 
-function Footer() {
+function Footer(props) {
   return (
     <nav className="footer">
       <div className="socialLinks">
@@ -38,10 +38,18 @@ function Footer() {
         </a>
       </div>
       <div className="appLinks">
-        <Link to="/">Home</Link>
-        <Link to="/resume">Resume</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/" onClick={props.collapseExpanded}>
+          Home
+        </Link>
+        <Link to="/resume" onClick={props.collapseExpanded}>
+          Resume
+        </Link>
+        <Link to="/projects" onClick={props.collapseExpanded}>
+          Projects
+        </Link>
+        <Link to="/contact" onClick={props.collapseExpanded}>
+          Contact
+        </Link>
       </div>
       <div className="copyright">
         <FontAwesomeIcon className="icon" icon={faCopyright} />
