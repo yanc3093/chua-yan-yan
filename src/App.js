@@ -1,6 +1,6 @@
 import { useMediaQuery } from "react-responsive";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 import Navbar from "./component/navbar";
 import Home from "./component/home";
@@ -29,7 +29,7 @@ function App() {
           collapseExpanded={collapseExpanded}
         />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home isMobile={isMobile} />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
