@@ -327,6 +327,7 @@
   margin-top: 50px;
   margin-bottom: 50px;
   max-width: 1000px;
+  padding: 20px;
 }
 
 .homeInMobile img {
@@ -368,6 +369,77 @@
   text-align: center;
 }
 
-.homeInMobile .description {
+.homeInMobile .detail {
   text-align: center;
+}
+
+.resumeInMobile {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 1000px;
+  padding: 20px;
+}
+
+.resumeInMobile h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.resumeInMobile a {
+  text-decoration: none;
+}
+
+.resumeInMobile a button {
+  align-items: center;
+  border-radius: 50px;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 10px 20px;
+}
+
+.resumeInMobile a button:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.resumeInMobile a button .icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+.resumeInMobile .detail button {
+  align-items: center;
+  background-color: transparent;
+  border-top: 1px solid lightgray;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  display: flex;
+  font-size: 20px;
+  height: 80px;
+  width: 100%;
+  padding: 0;
+}
+
+.resumeInMobile .detail button:hover {
+  cursor: pointer;
+}
+
+.resumeInMobile .detail h1 {
+  font-size: 30px;
+  margin: 0;
+  margin-right: auto;
+}
+
+.resumeInMobile .detail h3 {
+  margin: 0;
+}
+
+.resumeInMobile .detail .enableBottomBorder {
+  border-bottom: 1px solid lightgray;
 }

@@ -23,7 +23,7 @@ function Home(props) {
         major in Data Science, currently a Software Developer based in Singapore
         with a strong passion for problem-solving and continuous learning.
       </div>
-      <div className="description">
+      <div className="detail">
         <h3>A Bit About Myself</h3>
         <p>
           I was born and raised in Sabah, Malaysia, where its rich biodiversity
