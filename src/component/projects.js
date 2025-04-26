@@ -9,7 +9,6 @@ function Projects(props) {
     const project = projects[i];
     row.push(
       <ProjectContainer
-        isMobile={props.isMobile}
         id={project.id}
         image={project.image}
         description={project.description}
