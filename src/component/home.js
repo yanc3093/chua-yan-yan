@@ -4,7 +4,7 @@ import myPicture from "../asset/cyy.jpeg";
 
 function Home(props) {
   return props.isMobile ? (
-    <div className="homeInMobile">
+    <div className="home">
       <img src={myPicture} alt="cyy" />
       <div>
         <a
