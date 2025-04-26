@@ -455,17 +455,14 @@
 
   .projects .row .projectContainer {
     border: 1px solid lightgray;
-    display: flex;
     width: 100%;
   }
 
-  .projects .row .projectContainer img {
-    height: 100%;
-    width: 50%;
-    object-fit: cover;
-  }
-
-  .projects .row .projectContainer .detail {
-    width: 50%;
+  .contact {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 1000px;
+    padding: 20px;
   }
 }
