@@ -172,29 +172,29 @@
 
 .projects h1 {
   font-size: 50px;
+  margin: 0;
   margin-bottom: 20px;
 }
 
 .projects .row {
   display: flex;
-  gap: 50px;
+  justify-content: space-between;
   margin-bottom: 50px;
 }
 
 .projects .row .projectContainer {
   border: 1px solid lightgray;
-  height: 600px;
   width: 30%;
 }
 
 .projects .row .projectContainer img {
-  height: 40%;
+  height: 300px;
   width: 100%;
   object-fit: cover;
 }
 
 .projects .row .projectContainer .description {
-  height: 35%;
+  height: 300px;
   margin: 10px;
   overflow-wrap: break-word;
 }
@@ -296,150 +296,176 @@
 }
 
 /* Mobile */
-.navbar button {
-  background-color: transparent;
-  border: none;
-}
+@media (max-width: 768px) {
+  .navbar button {
+    background-color: transparent;
+    border: none;
+  }
 
-.navbar button .icon {
-  height: 20px;
-  width: 20px;
-}
+  .navbar button .icon {
+    height: 20px;
+    width: 20px;
+  }
 
-.expandedMenu {
-  align-items: center;
-  background-color: lightgray;
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-}
+  .expandedMenu {
+    align-items: center;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
 
-.expandedMenu a {
-  font-size: 20px;
-  text-decoration: none;
-}
+  .expandedMenu a {
+    font-size: 20px;
+    text-decoration: none;
+  }
 
-.homeInMobile {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  max-width: 1000px;
-  padding: 20px;
-}
+  .home {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 1000px;
+    padding: 20px;
+  }
 
-.homeInMobile img {
-  border-radius: 50%;
-  height: 300px;
-  width: 300px;
-  object-fit: cover;
-}
+  .home img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+  }
 
-.homeInMobile a {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-}
+  .home a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
 
-.homeInMobile a button {
-  align-items: center;
-  border-radius: 50px;
-  display: flex;
-  margin: 20px 10px;
-  padding: 10px 20px;
-}
+  .home a button {
+    align-items: center;
+    border-radius: 50px;
+    display: flex;
+    margin: 20px 10px;
+    padding: 10px 20px;
+  }
 
-.homeInMobile a button:hover {
-  background-color: lightgray;
-  cursor: pointer;
-}
+  .home a button:hover {
+    background-color: lightgray;
+    cursor: pointer;
+  }
 
-.homeInMobile a button .icon {
-  height: 20px;
-  width: 20px;
-  margin-right: 5px;
-}
+  .home a button .icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+  }
 
-.homeInMobile .summary {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 30px;
-  text-align: center;
-}
+  .home .summary {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+  }
 
-.homeInMobile .detail {
-  text-align: center;
-}
+  .home .detail {
+    text-align: center;
+  }
 
-.resumeInMobile {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  max-width: 1000px;
-  padding: 20px;
-}
+  .resume {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 1000px;
+    padding: 20px;
+  }
 
-.resumeInMobile h1 {
-  font-size: 50px;
-  margin: 0;
-}
+  .resume h1 {
+    font-size: 50px;
+    margin: 0;
+  }
 
-.resumeInMobile a {
-  text-decoration: none;
-}
+  .resume a {
+    text-decoration: none;
+  }
 
-.resumeInMobile a button {
-  align-items: center;
-  border-radius: 50px;
-  display: flex;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  padding: 10px 20px;
-}
+  .resume a button {
+    align-items: center;
+    border-radius: 50px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+  }
 
-.resumeInMobile a button:hover {
-  background-color: lightgray;
-  cursor: pointer;
-}
+  .resume a button:hover {
+    background-color: lightgray;
+    cursor: pointer;
+  }
 
-.resumeInMobile a button .icon {
-  height: 20px;
-  width: 20px;
-  margin-right: 5px;
-}
+  .resume a button .icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+  }
 
-.resumeInMobile .detail button {
-  align-items: center;
-  background-color: transparent;
-  border-top: 1px solid lightgray;
-  border-right: none;
-  border-bottom: none;
-  border-left: none;
-  display: flex;
-  font-size: 20px;
-  height: 80px;
-  width: 100%;
-  padding: 0;
-}
+  .resume .detail button {
+    align-items: center;
+    background-color: transparent;
+    border-top: 1px solid lightgray;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    display: flex;
+    font-size: 20px;
+    height: 80px;
+    width: 100%;
+    padding: 0;
+  }
 
-.resumeInMobile .detail button:hover {
-  cursor: pointer;
-}
+  .resume .detail button:hover {
+    cursor: pointer;
+  }
 
-.resumeInMobile .detail h1 {
-  font-size: 30px;
-  margin: 0;
-  margin-right: auto;
-}
+  .resume .detail h1 {
+    font-size: 30px;
+    margin: 0;
+    margin-right: auto;
+  }
 
-.resumeInMobile .detail h3 {
-  margin: 0;
-}
+  .resume .detail h3 {
+    margin: 0;
+  }
 
-.resumeInMobile .detail .enableBottomBorder {
-  border-bottom: 1px solid lightgray;
+  .resume .detail .enableBottomBorder {
+    border-bottom: 1px solid lightgray;
+  }
+
+  .projects {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 1000px;
+    padding: 20px;
+  }
+
+  .projects .row .projectContainer {
+    border: 1px solid lightgray;
+    display: flex;
+    width: 100%;
+  }
+
+  .projects .row .projectContainer img {
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+  }
+
+  .projects .row .projectContainer .detail {
+    width: 50%;
+  }
 }

@@ -5,7 +5,7 @@ import ExpandableContainer from "./expandableContainer";
 
 function Resume(props) {
   return props.isMobile ? (
-    <div className="resumeInMobile">
+    <div className="resume">
       <h1>My Resume</h1>
       <a href={myResume} download="ChuaYanYan-resume">
         <button>

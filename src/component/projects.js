@@ -1,13 +1,15 @@
 import ProjectContainer from "./projectContainer";
 import projects from "../data/projects";
 
-function Projects() {
+function Projects(props) {
+  const rowLength = props.isMobile ? 1 : 3;
   const result = [];
   let row = [];
   for (let i = 0; i < projects.length; i++) {
     const project = projects[i];
     row.push(
       <ProjectContainer
+        isMobile={props.isMobile}
         id={project.id}
         image={project.image}
         description={project.description}
@@ -15,7 +17,7 @@ function Projects() {
         videoLink={project.videoLink}
       />
     );
-    if (row.length === 3 || i === projects.length - 1) {
+    if (row.length === rowLength || i === projects.length - 1) {
       result.push(
         <div className="row" key={result.length + 1}>
           {row}
