@@ -28,15 +28,23 @@ function Home(props) {
         <p>
           I was born and raised in Sabah, Malaysia, where its rich biodiversity
           and vibrant mix of ethnic cultures shaped my perspective on the world,
-          fostering a deep appreciation for diversity. Growing up, I developed a
-          strong curiosity for technology and problem-solving, which eventually
-          led me to pursue a Bachelor’s degree in Computer Science with a focus
-          on Data Science from Monash University Malaysia. After graduating, I
-          moved to Singapore to kickstart my career in the tech industry as a
-          Software Developer, where I have been able to apply my academic
-          knowledge and hone my technical skills while contributing to impactful
-          project. I am excited by the opportunities ahead in the tech world and
-          am committed to continuing my growth in this ever-evolving field.
+          fostering a deep appreciation for diversity.
+        </p>
+        <p>
+          Growing up, I developed a strong curiosity for technology and
+          problem-solving, which eventually led me to pursue a Bachelor’s degree
+          in Computer Science with a focus on Data Science from Monash
+          University Malaysia.
+        </p>
+        <p>
+          After graduating, I moved to Singapore to kickstart my career in the
+          tech industry as a Software Developer, where I have been able to apply
+          my academic knowledge and hone my technical skills while contributing
+          to impactful project.{" "}
+        </p>{" "}
+        <p>
+          I am excited by the opportunities ahead in the tech world and am
+          committed to continuing my growth in this ever-evolving field.
         </p>
       </div>
     </div>

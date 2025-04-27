@@ -364,13 +364,8 @@
   }
 
   .home .summary {
-    font-size: 30px;
     font-weight: bold;
     margin-bottom: 30px;
-    text-align: center;
-  }
-
-  .home .detail {
     text-align: center;
   }
 
@@ -464,5 +459,11 @@
     margin-bottom: 50px;
     max-width: 1000px;
     padding: 20px;
+  }
+
+  .footer .appLinks {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
 }
