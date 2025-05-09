@@ -393,7 +393,6 @@
     border-radius: 50px;
     display: flex;
     margin-top: 20px;
-    margin-bottom: 50px;
     padding: 10px 20px;
   }
 
@@ -406,6 +405,10 @@
     height: 20px;
     width: 20px;
     margin-right: 5px;
+  }
+
+  .resume .detail {
+    margin-top: 50px;
   }
 
   .resume .detail button {
