@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileArrowDown } from "@fortawesome/free-solid-svg-icons";
 import myResume from "../asset/resume.pdf";
+import myCertificate from "../asset/monash.pdf";
 import ExpandableContainer from "./expandableContainer";
 
 function Resume(props) {
@@ -11,6 +12,12 @@ function Resume(props) {
         <button>
           <FontAwesomeIcon className="icon" icon={faFileArrowDown} />
           Download Resume
+        </button>
+      </a>
+      <a href={myCertificate} download="ChuaYanYan-certificate">
+        <button>
+          <FontAwesomeIcon className="icon" icon={faFileArrowDown} />
+          Download Certificate
         </button>
       </a>
       <div className="detail">
@@ -33,7 +40,7 @@ function Resume(props) {
             <div>
               <h3>Software Developer</h3>
               <div>Mlion Corporation Pte Ltd, Singapore</div>
-              <div>April 2023 - April 2025</div>
+              <div>April 2023 - March 2025</div>
               <ul>
                 <li>
                   Developed GoBendid, a tablet app designed to digitise
@@ -97,13 +104,17 @@ function Resume(props) {
               <ul>
                 <li>NodeJS, ExpressJS</li>
               </ul>
-              <h3>Data Analysis / Data Science</h3>
+              <h3>Data Science & Analytics</h3>
               <ul>
-                <li>Python, SQL, R, MATLAB</li>
+                <li>Python, SQL, R</li>
               </ul>
               <h3>Data Visualisation / BI Tools</h3>
               <ul>
                 <li>Tableau, Vega-Lite</li>
+              </ul>
+              <h3>Image Processing</h3>
+              <ul>
+                <li>MATLAB</li>
               </ul>
               <h3>Tools</h3>
               <ul>
@@ -129,6 +140,12 @@ function Resume(props) {
             Download Resume
           </button>
         </a>
+        <a href={myCertificate} download="ChuaYanYan-certificate">
+          <button>
+            <FontAwesomeIcon className="icon" icon={faFileArrowDown} />
+            Download Certificate
+          </button>
+        </a>
       </div>
       <div className="rightColumn">
         <ExpandableContainer
@@ -150,7 +167,7 @@ function Resume(props) {
             <div>
               <h3>Software Developer</h3>
               <div>Mlion Corporation Pte Ltd, Singapore</div>
-              <div>April 2023 - April 2025</div>
+              <div>April 2023 - March 2025</div>
               <ul>
                 <li>
                   Developed GoBendid, a tablet app designed to digitise
@@ -214,13 +231,17 @@ function Resume(props) {
               <ul>
                 <li>NodeJS, ExpressJS</li>
               </ul>
-              <h3>Data Analysis / Data Science</h3>
+              <h3>Data Science & Analytics</h3>
               <ul>
-                <li>Python, SQL, R, MATLAB</li>
+                <li>Python, SQL, R</li>
               </ul>
               <h3>Data Visualisation / BI Tools</h3>
               <ul>
                 <li>Tableau, Vega-Lite</li>
+              </ul>
+              <h3>Image Processing</h3>
+              <ul>
+                <li>MATLAB</li>
               </ul>
               <h3>Tools</h3>
               <ul>
